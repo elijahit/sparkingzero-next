@@ -141,7 +141,7 @@ export default async function Page({ params }) {
 
 async function getData(params) {
   try {
-    const res = await fetch(`http://localhost:3001/api/post?uri=${params.titolo}`, { next: { revalidate: 1 } });
+    const res = await fetch(`http://localhost:4000/api/post?uri=${params.titolo}`, { next: { revalidate: 1 } });
 
     const { id_article, titolo, testo, id_utente, image_url, created_at, username, email, discord_name } = await res.json();
 
@@ -168,7 +168,7 @@ export async function getDataUser() {
   const email = cookies().get('email')?.value;
   const auth = cookies().get('authToken')?.value;
   if (!auth && !email) return 0;
-  const res = await fetch(`http://localhost:3001/api/adminCheck?email=${email}&authToken=${auth}`, { next: { revalidate: 1 } });
+  const res = await fetch(`http://localhost:4000/api/adminCheck?email=${email}&authToken=${auth}`, { next: { revalidate: 1 } });
 
   if (res.status === 200) {
     const { admin_level, username, id_utente } = await res.json();
