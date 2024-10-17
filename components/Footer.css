@@ -1,0 +1,7 @@
+.social-background {
+  background-color: var(--button-bg-color);
+  padding: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+}

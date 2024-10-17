@@ -1,0 +1,25 @@
+.login {
+  background-color: var(--button-bg-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: unset !important;
+  right: 0;
+  background-color: var(--button-bg-color) !important;
+  border: unset;
+  border-radius: 5px;
+  text-align: end;
+  text-decoration: underline;
+}
+
+.dropdown-menu[data-bs-popper] a {
+  background-color: unset;
+}
+
+.navbar {
+  background-color: var(--secondary-bg-color) !important;
+}
