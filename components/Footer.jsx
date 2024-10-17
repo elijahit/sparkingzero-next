@@ -8,7 +8,7 @@ function Footer() {
         {/* FOOTER PER DESKTOP */}
         <div className="row">
           <div className="col-12 mt-5 mb-4 d-flex justify-content-center d-lg-block">
-            <Image src={"/footer-images/logo.webp"} alt="Logo Sparking Zero Italia" width={22} height={20}></Image>
+            {/* <Image src={"/footer-images/logo.webp"} alt="Logo Sparking Zero Italia" width={22} height={20}></Image> */}
           </div>
           <div className="col-2 d-none d-lg-block">
             <h6>Navigazione</h6>
