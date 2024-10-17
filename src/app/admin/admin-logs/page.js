@@ -20,7 +20,7 @@ export async function getData() {
   // Esegui una richiesta API lato server
   const email = cookies().get('email')?.value;
   const auth = cookies().get('authToken')?.value;
-  const res = await fetch(`http://localhost:3000/api/adminCheck?email=${email}&authToken=${auth}`);
+  const res = await fetch(`http://localhost:3001/api/adminCheck?email=${email}&authToken=${auth}`);
 
   if(res.status === 200) {
     const {admin_level} = await res.json();

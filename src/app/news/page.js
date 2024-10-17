@@ -165,7 +165,7 @@ export default async function Home(params) {
 
 async function getData() {
   try {
-    const res = await fetch(`http://localhost:3000/api/postNews?limit=2`, { next: { revalidate: 1 } });
+    const res = await fetch(`http://localhost:3001/api/postNews?limit=2`, { next: { revalidate: 1 } });
 
     return await res.json();
   } catch {
@@ -175,8 +175,8 @@ async function getData() {
 
 async function getDataAll(pag) {
   try {
-    const res = await fetch(`http://localhost:3000/api/postNews?limit=10&pag=${pag}`, { next: { revalidate: 1 } });
-    const resCount = await fetch(`http://localhost:3000/api/postNews`, { next: { revalidate: 1 } });
+    const res = await fetch(`http://localhost:3001/api/postNews?limit=10&pag=${pag}`, { next: { revalidate: 1 } });
+    const resCount = await fetch(`http://localhost:3001/api/postNews`, { next: { revalidate: 1 } });
 
     return { "data": await res.json(), "count": Object.keys(await resCount.json()).length };
   } catch {

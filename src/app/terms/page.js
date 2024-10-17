@@ -184,7 +184,7 @@ export default async function Home() {
 
 async function getData() {
   try {
-    const res = await fetch(`http://localhost:3000/api/postNews?limit=2`, {
+    const res = await fetch(`http://localhost:3001/api/postNews?limit=2`, {
       next: { revalidate: 1 },
     });
 
@@ -196,7 +196,7 @@ async function getData() {
 
 async function getDataAll() {
   try {
-    const res = await fetch(`http://localhost:3000/api/postNews`, {
+    const res = await fetch(`http://localhost:3001/api/postNews`, {
       next: { revalidate: 1 },
     });
 

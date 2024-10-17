@@ -137,7 +137,7 @@ export default async function Home() {
 
 async function getData() {
   try {
-    const res = await fetch(`http://localhost:3000/api/postNews?limit=3`, { next: { revalidate: 1 } });
+    const res = await fetch(`http://localhost:3001/api/postNews?limit=3`, { next: { revalidate: 1 } });
 
     return await res.json();
   } catch {
@@ -147,7 +147,7 @@ async function getData() {
 
 async function getDataMobile() {
   try {
-    const res = await fetch(`http://localhost:3000/api/postNews?limit=2`, { next: { revalidate: 1 } });
+    const res = await fetch(`http://localhost:3001/api/postNews?limit=2`, { next: { revalidate: 1 } });
 
     return await res.json();
   } catch {
