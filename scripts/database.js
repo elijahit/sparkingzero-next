@@ -5,7 +5,7 @@ const path = require("path");
 
   // open the database
   const db = await open({
-    filename: 'database.db',
+    filename: 'databaseSparking.db',
     driver: sqlite3.Database
   })
   export default db;
