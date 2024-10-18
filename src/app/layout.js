@@ -11,11 +11,11 @@ import Clarity from '../../components/Clarity';
 
 export const metadata = {
   title: "Sparking Zero Italia",
-  description: "Community italiana di XDefiant dal 2021. Su discord aggiorniamo i giocatori su novità, eventi e competizioni. Unisciti a noi per condividere esperienze, strategie e partecipare a tornei",
-  keywords: ['xdefiant', 'Sparking Zero Italia', 'ubisoft italia', 'ubisoft'],
+  description: "Community italiana di Sparking Zero. Su discord aggiorniamo i giocatori su novità, eventi e competizioni. Unisciti a noi per condividere esperienze, strategie e partecipare a tornei",
+  keywords: ['sparking', 'Sparking Zero Italia', 'italia', 'dragonball'],
   openGraph: {
     title: 'Sparking Zero Italia',
-    description: 'Community italiana di XDefiant dal 2021. Su discord aggiorniamo i giocatori su novità, eventi e competizioni. Unisciti a noi per condividere esperienze, strategie e partecipare a tornei',
+    description: 'Community italiana di Sparking Zero. Su discord aggiorniamo i giocatori su novità, eventi e competizioni. Unisciti a noi per condividere esperienze, strategie e partecipare a tornei',
     url: siteConfig.site.baseUri,
     siteName: 'Sparking Zero Italia - Community',
     images: [
@@ -39,10 +39,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="it">
-      <GoogleAdsense pId={5871152138430543}/>
+      <GoogleAdsense pId={2}/>
       <Clarity/>
       <body>{children}</body>
-      <GoogleAnalytics gaId="G-4YW7FLVCPY" />
+      <GoogleAnalytics gaId="G-s" />
     </html>
   );
 }

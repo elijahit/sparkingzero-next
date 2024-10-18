@@ -26,7 +26,7 @@ export default async function Home() {
       name: "Sparking Zero Italia",
       logo: "/header-images/logo.webp",
       keywords:
-        "Sparking Zero Italia, xdefiant, news Sparking Zero Italia, news, tornei, community, discord",
+        "Sparking Zero Italia, dragonball, news Sparking Zero Italia, news, tornei, community, discord",
       founder: [
         {
           "@type": "Person",
@@ -59,7 +59,7 @@ export default async function Home() {
           <h2>1. Accettazione dei Termini</h2>
           <p>
             Accedendo e utilizzando SparkingZero.it (&quot;Sito&quot;), il server Discord
-            (&quot;Server&quot;) e il tracker delle statistiche del gioco XDefiant
+            (&quot;Server&quot;) e il tracker delle statistiche del gioco Sparking Zero
             (&quot;Tracker&quot;), accetti di essere vincolato da questi Termini di
             Servizio (&quot;Termini&quot;). Se non accetti questi Termini, ti preghiamo di
             non utilizzare i nostri servizi.
