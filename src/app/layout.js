@@ -39,10 +39,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="it">
-      <GoogleAdsense pId={2}/>
       <Clarity/>
       <body>{children}</body>
-      <GoogleAnalytics gaId="G-s" />
+      <GoogleAnalytics gaId="G-KBS0LV1HXN" />
     </html>
   );
 }
