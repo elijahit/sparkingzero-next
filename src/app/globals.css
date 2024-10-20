@@ -37,7 +37,7 @@
   --secondary-bg-color: #004D99;
   --primary-bg-color-1: #272727;
   --button-bg-color: #FF4500;
-  --background-image: url('/background-all/background.webp');
+  --background-image: url('/background-all/background-fixed.webp');
 }
 
 @media (prefers-color-scheme: dark) {
@@ -71,7 +71,7 @@
     --secondary-bg-color: #004D99;
     --primary-bg-color-1: #272727;
     --button-bg-color: #FF4500;
-    --background-image: url('/background-all/background-2.webp');
+    --background-image: url('/background-all/background-fixed.webp');
   }
 }
 
@@ -93,6 +93,7 @@ body {
   background-image: var(--background-image);
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 a {
@@ -135,6 +136,7 @@ footer {
   background-color: var(--primary-bg-color);
 }
 
-.bg-secondary-custom {
+/* .bg-secondary-custom {
   background-image: var(--background-image);
-}
+  background-attachment: fixed;
+} */
