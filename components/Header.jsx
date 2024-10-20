@@ -31,7 +31,7 @@ export default function Header({ isPage }) {
       <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div className="container">
           <a className="navbar-brand" href="/">
-            <Image src="/home-images/dragonball.webp" width={40} height={40} alt="Logo di Sparking Zero Italia" />
+            <Image src="/hero-images/korat-logo.png" width={120} height={53} alt="Logo di Sparking Zero Italia" />
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
