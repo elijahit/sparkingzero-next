@@ -72,7 +72,7 @@ export default async function Home() {
         {/* HERO SECTION */}
         <Hero />
         {/* FIRST SECTION */}
-        <section className="mt-5">
+        <section className="presentation-section">
           <h1 className="d-none">Sparking Zero Italia</h1>
           <div className="container">
             <div className="row">

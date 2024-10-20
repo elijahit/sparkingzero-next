@@ -147,3 +147,16 @@ footer {
 .bg-primary-custom {
   background-color: var(--primary-bg-color);
 }
+
+
+@media (min-width: 992px) { 
+  .presentation-section {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 991.98px) { /* lg breakpoint di Bootstrap */
+  .presentation-section {
+    margin-top: 3rem;
+  }
+}
