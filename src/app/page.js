@@ -81,7 +81,7 @@ export default async function Home() {
               </div>
               <div className="col-12 col-lg-9">
                 <p className="text-center text-lg-start mb-5 fs-4">
-                  Sparking Zero Italia è la community italiana ufficiale di Sparking Zero, dedicata a tenere tutti i fan e i giocatori aggiornati sulle ultime novità, eventi speciali e competizioni del gioco. Attraverso i nostri canali social e il server Discord, offriamo uno spazio accogliente dove i membri della community possono condividere esperienze, discutere strategie e partecipare a tornei entusiasmanti. Che tu sia un veterano del gioco o un nuovo arrivato, ti invitiamo a unirti a noi per rimanere sempre al passo con le ultime novità e vivere al massimo l’esperienza di Sparking Zero insieme a una community vibrante e appassionata!.
+                  Sparking Zero Italia è la community italiana ufficiale di Dragonball: Sparking Zero, dedicata a tenere tutti i fan e i giocatori aggiornati sulle ultime novità, eventi speciali e competizioni del gioco. Attraverso i nostri canali social e il server Discord, offriamo uno spazio accogliente dove i membri della community possono condividere esperienze, discutere strategie e partecipare a tornei entusiasmanti. Che tu sia un veterano del gioco o un nuovo arrivato, ti invitiamo a unirti a noi per rimanere sempre al passo con le ultime novità e vivere al massimo l’esperienza di Sparking Zero insieme a una community vibrante e appassionata!
                 </p>
               </div>
             </div>
