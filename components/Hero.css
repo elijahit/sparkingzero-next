@@ -17,3 +17,15 @@
   transform: translate(50%);
   bottom: -80px;
 }
+
+@media (min-width: 992px) { 
+  .presentation-section {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 991.98px) { /* lg breakpoint di Bootstrap */
+  .presentation-section {
+    margin-bottom: 3rem;
+  }
+}
