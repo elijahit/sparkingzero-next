@@ -147,3 +147,12 @@ footer {
 .bg-primary-custom {
   background-color: var(--primary-bg-color);
 }
+
+.mask-gif {
+  width: 500px;
+  height: auto;
+  -webkit-mask-image: url('/home-images/frame-mask.png');
+  mask-image: url('/home-images/frame-mask.png');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}

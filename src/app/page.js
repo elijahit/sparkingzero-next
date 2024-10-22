@@ -76,10 +76,10 @@ export default async function Home() {
           <h1 className="d-none">Sparking Zero Italia</h1>
           <div className="container">
             <div className="row">
-              <div className="d-none col-lg-3 d-lg-flex justify-content-end align-items-baseline">
-                <Image src={"/home-images/dragonball.webp"} width={184} height={184} className="img-fluid" alt="Soldier avatar"></Image>
+              <div className="d-none col-lg-4 d-lg-flex justify-content-end align-items-center">
+                <Image unoptimized src={"/home-images/video-gif.gif"} width={500} height={500} className="img-fluid mask-gif" alt="Soldier avatar"></Image>
               </div>
-              <div className="col-12 col-lg-9">
+              <div className="col-12 col-lg-8">
                 <p className="text-center text-lg-start mb-5 fs-4">
                   Sparking Zero Italia è la community italiana ufficiale di Dragonball: Sparking Zero, dedicata a tenere tutti i fan e i giocatori aggiornati sulle ultime novità, eventi speciali e competizioni del gioco. Attraverso i nostri canali social e il server Discord, offriamo uno spazio accogliente dove i membri della community possono condividere esperienze, discutere strategie e partecipare a tornei entusiasmanti. Che tu sia un veterano del gioco o un nuovo arrivato, ti invitiamo a unirti a noi per rimanere sempre al passo con le ultime novità e vivere al massimo l’esperienza di Sparking Zero insieme a una community vibrante e appassionata!
                 </p>
