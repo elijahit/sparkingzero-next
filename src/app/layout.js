@@ -41,9 +41,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="it">
       <Clarity/>
-      <Iubenda />
       <body>{children}</body>
       <GoogleAnalytics gaId="G-KBS0LV1HXN" />
+      <Iubenda />
     </html>
   );
 }
