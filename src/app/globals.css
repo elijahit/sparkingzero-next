@@ -149,7 +149,9 @@ footer {
 }
 
 .mask-gif {
-  width: 500px;
+  position: relative;
+  width: 750px;
+  left: -55px;
   height: auto;
   -webkit-mask-image: url('/home-images/frame-mask.png');
   mask-image: url('/home-images/frame-mask.png');
