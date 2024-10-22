@@ -27,11 +27,6 @@ const Iubenda = () => {
         async
       />
       <Script
-        src="//cdn.iubenda.com/cs/gpp/stub.js"
-        strategy="afterInteractive"
-        async
-      />
-      <Script
         src="//cdn.iubenda.com/cs/iubenda_cs.js"
         strategy="afterInteractive"
         charset="UTF-8"
